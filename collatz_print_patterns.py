@@ -3,7 +3,7 @@
 # odd numbers to bigger value (Odds To Big) OTB
 # EOR is end of row (print hypothesis)
 
-def OTB_print_triangle(anyNumber=3,numberOfLevels=3):
+def OTB_print_triangle(anyNumber=1,numberOfLevels=6):
 	print("\nanyNumber={0}".format(anyNumber))
 	for level in range(numberOfLevels):
 		row=level
@@ -17,7 +17,7 @@ def OTB_print_triangle(anyNumber=3,numberOfLevels=3):
 
 
 
-def OTB_print_rectangle(anyNumber=3,numberOfLevels=6):
+def OTB_print_rectangle(anyNumber=1,numberOfLevels=6):
 	print("\nanyNumber={0}".format(anyNumber))
 	for row in range(numberOfLevels):
 		for col in range(numberOfLevels):
