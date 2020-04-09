@@ -17,7 +17,7 @@ def OTB_print_triangle(anyNumber=3,numberOfLevels=3):
 
 
 
-def OTB_print_rectangule(anyNumber=3,numberOfLevels=6):
+def OTB_print_rectangle(anyNumber=3,numberOfLevels=6):
 	print("\nanyNumber={0}".format(anyNumber))
 	for row in range(numberOfLevels):
 		for col in range(numberOfLevels):
@@ -27,5 +27,5 @@ def OTB_print_rectangule(anyNumber=3,numberOfLevels=6):
 		print("")
 
 
-OTB_print_rectangule(5,6)
+OTB_print_rectangle(5,6)
 OTB_print_triangle(5,6)
