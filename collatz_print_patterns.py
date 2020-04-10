@@ -1,7 +1,7 @@
 
 
 # odd numbers to bigger value (Odds To Big) OTB
-# EOR is end of row (print hypothesis)
+# EOR is end of row (print hypotenuse)
 
 def OTB_print_triangle(anyNumber=1,numberOfLevels=6):
 	print("\nanyNumber={0}".format(anyNumber))
