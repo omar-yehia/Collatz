@@ -22,8 +22,6 @@ def OTB_print_rectangle(anyNumber=1,numberOfLevels=6):
 	for row in range(numberOfLevels):
 		for col in range(numberOfLevels):
 			print( -1+ ( 2 * 2**row * 3**col * anyNumber ) ,end=",")
-		# EOR = -1+ ( 2 * 2**row * 3**col * anyNumber )
-		# print(EOR)
 		print("")
 
 
