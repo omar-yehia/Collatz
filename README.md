@@ -1,2 +1,2 @@
 # collatz
-python codes for printing patterns for the Collatz Conjecture
+Python codes for printing patterns for the Collatz Conjecture
